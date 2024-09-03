@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/src_general">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/src_gramatica">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/src_seguridad">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.0-jre/44b1d40ac2743daef983d85b81f4534bc6a17d04/guava-30.0-jre-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.0-jre/8ddbc8769f73309fe09b54c5951163f10b0d89fa/guava-30.0-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.m2/repository/com/bydan/ingles/ingles_ejb/91.0/ingles_ejb-91.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.json/json/20131018/732c3955fe61046da31f6a024227f37d9ff3fbc3/json-20131018-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.json/json/20131018/c5b366c02a8dfca2b1d8ba1a0c4d2e666a2eeb75/json-20131018.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.49/e2a794fb4d6e25f4b7fbd8bc56c62aacbb4555ff/mysql-connector-java-5.1.49-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.49/cf76d2e4c9c3782a85c15c87bec5772b34ffd0e5/mysql-connector-java-5.1.49.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.7/bb76e5678cdb3e7488bb5578a8461e82fba5fe36/mail-1.4.7-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.7/9add058589d5d85adeb625859bf2c5eeaaedf12d/mail-1.4.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-excelant/4.1.2/81e6f195bae951f7e154a5067261ed5dcac8efdf/poi-excelant-4.1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-excelant/4.1.2/e650e49e8374af6e64886e7b7a7c2d8add383ab1/poi-excelant-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/712cc02d5bbe729d2485a1579f3d8dfc47e25b51/poi-ooxml-4.1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/87d9a22aa9a7dd26e80c360e709f7ee02e32ab3b/poi-ooxml-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/4.1.2/371627d320b351717687f102bdbff6226f0c47a0/poi-scratchpad-4.1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/4.1.2/1be379e91d3d3fb0cd11425451acdbfb0d2264e7/poi-scratchpad-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/ac5af3832ebaef94562a39591a000338bbae0e4b/poi-4.1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/964bf41cf68bce08e4ef6b2279b559fdf8d454f4/poi-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator-cdi/6.0.7.Final/56b051ec7c10b45060261dc7b7ae3a5365368cec/hibernate-validator-cdi-6.0.7.Final-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator-cdi/6.0.7.Final/acc0cbb529e6d58d4aefbf56a7568ef51ebd29a9/hibernate-validator-cdi-6.0.7.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.7.Final/969df301f5c9de436ddaf67f96f0978c4f05b3f6/hibernate-validator-6.0.7.Final-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.7.Final/8b9d9c7ec8c73963ea0fe81912fc67711a4ef76/hibernate-validator-6.0.7.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/4b714a5167580122e46ead3317ffcdcdbd67c5f0/validation-api-2.0.1.Final-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.2/be3d5a416914f0a5320d7737599871ac9f0c412c/classmate-1.3.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.2/1df94298c8d893f57106a6a05d15c06b8dd6ddea/classmate-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.1-b09/bcca43b23286c25401c44c771b0be66baf47082a/javax.el-3.0.1-b09-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.1-b09/2b59f1809e193aa942b8ed20efc673d9063e6a50/javax.el-3.0.1-b09.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.el/javax.el-api/3.0.1-b06/186eda4921326e53a4dad3156fde114736e3aea3/javax.el-api-3.0.1-b06-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.el/javax.el-api/3.0.1-b06/9c4c2400f2d8e35c62d636c13012e1f68c370a00/javax.el-api-3.0.1-b06.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.3.Final/1437d61379855d167bf588e2fc79d6da27180bd3/jboss-logging-3.3.3.Final-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.3.Final/d3cfa8d3075fd52884fc82ded5c52b1407f18e6e/jboss-logging-3.3.3.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.30/c762831bebf62255a0c0764a5aaee76e39399c41/freemarker-2.3.30-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.30/86d70d335c7821178f62b554aa3a4bc538a94f1a/freemarker-2.3.30.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.toedter/jcalendar/1.4/3d7b88aa467e7f5845273e130e6e2dc72c86a5a9/jcalendar-1.4-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.toedter/jcalendar/1.4/180cf82b37b0c1324e7de33bd0114be7d86678cd/jcalendar-1.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-swing/5.2/df798d1660b3106a0304efa9e04dfd1a1a2e6025/miglayout-swing-5.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-swing/5.2/53e2fc5586a120797e3af0ff4cf9adb3b403ab14/miglayout-swing-5.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.34.0/9d5be0d6ec51a77bec54f4e513ac739e462c830a/sqlite-jdbc-3.34.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.34.0/fd29bb0124e3f79c80b2753162a6a3873c240bcf/sqlite-jdbc-3.34.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/barcodes/7.1.13/7103a954ca09390b6982d8aec3c316d215e2d166/barcodes-7.1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/barcodes/7.1.13/b03f03c9f71e950de457ab4a461599d33ae5296d/barcodes-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-all/1.11/5fbd444c4160b9017bf107622347a12624d2749d/batik-all-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-chart-customizers/6.9.0/af7cc472a43222d2fcb834e5ec2c1c02dbde2f03/jasperreports-chart-customizers-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-chart-customizers/6.9.0/1cc6dd0d541870e86f9669c87da3bbed0469f932/jasperreports-chart-customizers-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-chart-themes/6.9.0/7d240631c0bc925215e338fe87aa39c325f950eb/jasperreports-chart-themes-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-chart-themes/6.9.0/c91e6645a08526bc3abcb5f245dfebc0ec8393ca/jasperreports-chart-themes-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-functions/6.9.0/c54662f8a8a1f0278ca9bad8bab6c08dfeee84e8/jasperreports-functions-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-functions/6.9.0/e714d8645ac8317ba23c8656f42898df516bb431/jasperreports-functions-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports/6.9.0/c8417f6cc2912c1158ca95c91808fa4cc992b5bb/jasperreports-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports/6.9.0/2b3588c01b4fab76e1c541b3fb1a54ba41b7605d/jasperreports-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.codehaus.castor/castor-xml/1.4.1/9e56ee09bf0e081a930fb96e875533d7a2e4870f/castor-xml-1.4.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.codehaus.castor/castor-xml/1.4.1/2cee800a008291305ac4f3a67b674f9c6cb1d07a/castor-xml-1.4.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.codehaus.castor/castor-core/1.4.1/81bca28867f437cd7abcb502582a990d6a4c69b3/castor-core-1.4.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.codehaus.castor/castor-core/1.4.1/b973333a7ce1b8017dccba68068023c9d17f9872/castor-core-1.4.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.lowagie/itext/2.1.7/c4a56ee84b87e8737e6b7769fcfeb97019003a14/itext-2.1.7-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.lowagie/itext/2.1.7/892bfb3e97074a61123b3b2d7caa2db112750864/itext-2.1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.1/32d198e5ebef012249b225118c7cb9caae56c4d8/commons-digester-2.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.1/73a8001e7a54a255eef0f03521ec1805dc738ca0/commons-digester-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/f00e0ba867d1810f255876631ab440e0725a9af0/commons-beanutils-1.9.4-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/d52b9abcd97f38c81342bb7e7ae1eee9b73cba51/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/226247b40160f2892fa4c7851b5b913d5d10912d/commons-codec-1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/3f18e1aa31031d89db6f01ba05d501258ce69d2c/commons-codec-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/9c242093f81288289bc433e383c8a8de89489406/commons-compress-1.19-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-rasterizer-ext/1.11/ec2a6017ab334650fea2e47a4bd83a81b99ba46b/batik-rasterizer-ext-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-rasterizer-ext/1.11/a996eb0e9db9583fa47cf975c693e0b69b5377c0/batik-rasterizer-ext-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-rasterizer/1.11/1a2e590d6255c32813ac1201f8835ec47629670e/batik-rasterizer-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-rasterizer/1.11/9c71ce585d5612228b16b26538bea9814c4c325f/batik-rasterizer-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgrasterizer/1.11/34d0831a18940b9fe8bd63df9e5a32681e8ed2d6/batik-svgrasterizer-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgrasterizer/1.11/c6d4622744b607c4589da715c4492f645f3fe89d/batik-svgrasterizer-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-codec/1.11/8bcb63fb1dd0c9c2bef3d4bbc7861a24f07f1bce/batik-codec-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-codec/1.11/aebe26798efec8e220d6f43b2b353a547ecefcc5/batik-codec-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-squiggle-ext/1.11/b298fbf6a1093576bb67ff7f8234d16acb51af26/batik-squiggle-ext-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-squiggle-ext/1.11/aac8dc0a5f9c87f6499f2909f972efda874f6949/batik-squiggle-ext-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-extension/1.11/496e416f78643b422a1f710b9c3362c59f6c5895/batik-extension-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-extension/1.11/5f0f9baa662052beb924447b0c78472b20580acb/batik-extension-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-slideshow/1.11/1837acbc1a48d31a53b59af99e95450c36cf3880/batik-slideshow-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-slideshow/1.11/648e24eaa8e24d91c2962462510c74bd1f41840/batik-slideshow-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-squiggle/1.11/a9392c57706aff629814f91929a37b1cac848d9f/batik-squiggle-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-squiggle/1.11/7c1a6189f81675d2b8ce9d1b4e7b232340588267/batik-squiggle-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgbrowser/1.11/46a9fff7631e69190a8bbf087bd318b346415b43/batik-svgbrowser-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgbrowser/1.11/3202817a113e4d0c22e7bc0f41799ee16e7a16a/batik-svgbrowser-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-swing/1.11/dc2849346c0ca6a47ea99ac7924015d1663355e1/batik-swing-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-swing/1.11/96e6282d78f6ce291363703b3eea650f6cdab3a3/batik-swing-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgpp/1.11/23dbf46b0d79607cbfde0ab71eaea857f85d5a5/batik-svgpp-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svgpp/1.11/d9e5a572c5e10187bf78dad6c34a9325f8ddb1c3/batik-svgpp-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-transcoder/1.11/3f77e44ddde145b2de3ba5d33881f8621c690eee/batik-transcoder-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-transcoder/1.11/2a3c9fc43f5335670b73143a3d2b082015af96fc/batik-transcoder-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-bridge/1.11/833a7f8d247fcfaf2dd9528baf525a75aec6e8ad/batik-bridge-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-bridge/1.11/b8e47b2594df81bda8b7d9520c71036a4b1c8459/batik-bridge-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-script/1.11/3f3fb59c737790726b82210476b790e906ebfef/batik-script-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-script/1.11/f7284dabc28aaa7407bef45f31dd204e58a35810/batik-script-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-anim/1.11/832454989d875e554eed08063e4f0a68e5db4011/batik-anim-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-anim/1.11/33a3de659273ba8b99346b2d005e6f0ab731393/batik-anim-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.11/6d93a12be33fea1a5ce6843ff210096e763d73ef/batik-gvt-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.11/e705137cf79f71f72516877fdc51b1e6ff33baff/batik-gvt-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svg-dom/1.11/d9140fbbcbd6d45f24b2611f2e366ebb602968e0/batik-svg-dom-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svg-dom/1.11/e23c7f7ad43f3005f17cbb349ab2c5941f109d0b/batik-svg-dom-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-parser/1.11/c9bd69e04efd57b80d114eff3e52d09421816ce2/batik-parser-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-parser/1.11/52968fe3116133c4172f994b7a65afdc5b002a1f/batik-parser-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ttf2svg/1.11/ab4e75b8f360d00f9ae563a33fca9eb6305e8c6d/batik-ttf2svg-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ttf2svg/1.11/8100f7ef31278ebec836dd6e508467f27bf828a1/batik-ttf2svg-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.11/ca5e464ec3651d52679beb286eb894980d426196/batik-svggen-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-svggen/1.11/f9fc12df4c4436545ee78f46f2205978ea929d96/batik-svggen-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-awt-util/1.11/d165b44d71b5e9d0b693646b3ff2e16579d60b2c/batik-awt-util-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-awt-util/1.11/5dd23e3d6194d27f4892bf1a310fd7909e6ac085/batik-awt-util-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-dom/1.11/2786b769f48dbc4bef27b64ef76a347c5fda013e/batik-dom-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-dom/1.11/f5fe16dc3f99ddbf3a894ff8dcfb5ac00418b2b2/batik-dom-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.11/adb3442097dde72c5c6cfd8589e3b4385761410b/batik-css-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.11/7b71fba5df4992ba6ead8176fc1c87bdfdf92d59/batik-css-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.3/8d9ad675fb4b506722fa5171f1a9586c7229463e/xmlgraphics-commons-2.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.3/f0b77d80c4d8f02538512b4d505af0cf5286eb7f/xmlgraphics-commons-2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/48404d3d9cfeb13c15d9bff1e11cccc7e4cb8f48/curvesapi-1.06-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/159dd2e8956459a4eb0a9a6ecda9004d8d289708/curvesapi-1.06.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/forms/7.1.13/7d3505c17a02b6455a644d3aa1541351230513f9/forms-7.1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/forms/7.1.13/cd4bef4df42326626612b16cbb66a019887736ff/forms-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/svg/7.1.7/68f4adc23c9324168bbbbe9276a29a09b2612b6/svg-7.1.7-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/svg/7.1.7/fa2f8d4c0dc9a688d5d35d39e0da4bcb4c044557/svg-7.1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.7/14a92f5b846001dc972dc859c79dbd0eb511c879/styled-xml-parser-7.1.7-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/styled-xml-parser/7.1.7/9b47837412587640faa02b5e94401c5e7764d184/styled-xml-parser-7.1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/layout/7.1.13/161c5cb72afc06372f2865c30a67feb1aee2a666/layout-7.1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/layout/7.1.13/9651052d58f1b27e2f088ba790df4ff7ca4bec8/layout-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.13/f4262d4418fb88e345101dc02eab84564ca66bf9/kernel-7.1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/kernel/7.1.13/2e3be92994d11546706948474442b9ebf18d7723/kernel-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/io/7.1.13/14cc18b4d2ea629d52445e8264b5abd1565ebe5d/io-7.1.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/io/7.1.13/fc561dc9ffd18f9fb0f06557718e054e7f59f69c/io-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-fonts/6.9.0/2d5d70995d5568c1c550990504aabce8963da081/jasperreports-fonts-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-fonts/6.9.0/18cfa8486ed6e1aef56e058f4c07b3617ce46124/jasperreports-fonts-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-metadata/6.9.0/ac4bee039e3aed94f9ffc49753810c9c428e0023/jasperreports-metadata-6.9.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sf.jasperreports/jasperreports-metadata/6.9.0/6c88f3627e36096e1d00b33662832b06e8ed9edb/jasperreports-metadata-6.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/e47264d065cecbc572ba99856fcc7da19a470ae3/jaxb-api-2.3.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/7caea34258154d7264652b8f049409634819d663/jaxb-core-2.3.0.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/23574ca124d0a694721ce3ef13cd720095f18fdd/jaxb-core-2.3.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.3/e480ca4208fc77d4c5d9f7d37630237cc1b93b39/jaxb-impl-2.3.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.3/3758e8c1664979749e647a9ca8c7ea1cd83c9b1e/jaxb-impl-2.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/jfree/jfreechart-swt/1.0.17/ea0188d675038e0de8e57d7184a18d96aadebdd6/jfreechart-swt-1.0.17-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/jfree/jfreechart-swt/1.0.17/c4e2fed3bd2c9db9b6f2ae03b57b9ed53e608ba7/jfreechart-swt-1.0.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/5aae69aa497ce4ea82b59317102a09c5abc91ba1/jfreechart-1.0.19-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/ba9ee7dbb2e4c57a6901c79f614ed2dea9cc0e20/jfreechart-1.0.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jcommon/1.0.23/76c1fec968d3f6e55cf9bea2855ad33d085a6b6/jcommon-1.0.23-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jcommon/1.0.23/a316f336ca996e0c6bec4e4fbd49be8f5e1c3968/jcommon-1.0.23.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.object-refinery/orsoncharts/1.5/a46671f7d0f8e6730768b76afe78aea2b57848d/orsoncharts-1.5-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.object-refinery/orsoncharts/1.5/779c93d614276aa659eb02d0d03eb2951657ed4c/orsoncharts-1.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jfreesvg/3.0/5764d34813ee0e84a57137953f5e053c8a8b2655/jfreesvg-3.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/jfreesvg/3.0/27a5da75ef91522591e6e45b1c0fbe2d5adc0bcd/jfreesvg-3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.8/24daebd48322ae423d8f760af7784f9e6701158f/joda-time-2.10.8-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.8/b0442d652c209a7ba7af0410ce219d997a447701/joda-time-2.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sourceforge.jexcelapi/jxl/2.6.12/7e5ce7fe751bac58c5fe9eaf4600fd7f2d1bb112/jxl-2.6.12-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/net.sourceforge.jexcelapi/jxl/2.6.12/7faf62e0697f7a88954622dfe8c8de33ed142ac7/jxl-2.6.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.orsonpdf/orsonpdf/1.7/e6a3287cb1a2b15133a1593b5eb43637fd11cd04/orsonpdf-1.7-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.orsonpdf/orsonpdf/1.7/c46293dc483e78cf9884f3f05453bf974f1f5371/orsonpdf-1.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/4.1.2/550cc22a598c0b0a51d1f55f8371e83c1229802d/poi-ooxml-schemas-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/8bcd5b15133bb5423cdc9f33da7e4ac585fd783a/spring-context-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/a75e18322c7b362fe1daa26a245ae672ec0f3138/spring-context-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/858d6c70909b3ce7e07b59fc936f8ccfcd81c0aa/spring-aop-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.20.RELEASE/b6ee9d90fd563bb6b5b2e3febb443b78f926264/spring-beans-5.1.20.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.20.RELEASE/8d6f2526f935e8687888d220be2ffb23295efc0f/spring-beans-5.1.20.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.20.RELEASE/ca545f8b052fd589b2e12154294d1b9f3ead37c/spring-expression-5.1.20.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.20.RELEASE/72e3ff23600ca3c3807a5b96bd48ef8eb134e2aa/spring-expression-5.1.20.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.20.RELEASE/f7b5ba8eca8a1dff9e2625712403a3695346b58/spring-core-5.1.20.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.20.RELEASE/4b9672a6ea7985d551a1620fb146acc11f94c26f/spring-core-5.1.20.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/swtgraphics2d/1.0/8abb55c432843f8faac498737952bfafe10166d7/swtgraphics2d-1.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/swtgraphics2d/1.0/7dfb0b3bc496546a97d03ba3c4b9f5465bf2db4a/swtgraphics2d-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/d4973a8bf57cb9aaeb24679137789bbf873a7b5f/xmlbeans-3.1.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/6dac1f897dfb3e3f17fc79b18a3353b2e51c464e/xmlbeans-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/acb4745ac343906cd39f9b3776db0e56f251ae6e/checker-qual-3.5.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/2f50520c8abea66fbd8d26e481d3aef5c673b510/checker-qual-3.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/950adf6dcd7361e3d1e544a6e13b818587f95d14/error_prone_annotations-2.3.4-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/ee5e8ac60eb99a373a4d3e0a35d1feccfabddc33/SparseBitSet-1.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/8467c813d442837fcaeddbc42cf5c5359fab4933/SparseBitSet-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator-annotation-processor/6.0.7.Final/732d8d8ef5f2091533f6eb8e020666e6cfc3a228/hibernate-validator-annotation-processor-6.0.7.Final-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator-annotation-processor/6.0.7.Final/39f1cac791da7972d909fab33fbbb1b206846c60/hibernate-validator-annotation-processor-6.0.7.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-core/5.2/4b3f0bfa2312173be31f87caa3cc58b617eea1df/miglayout-core-5.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.miglayout/miglayout-core/5.2/c1234205bde8fa72a420ecc5f63b9f269edccbfb/miglayout-core-5.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/96e785df399a4e1a6c030877097807b7e18520cc/slf4j-api-1.7.13-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gui-util/1.11/e8f3015d335fadd5395ad371dadd9294a5c7086c/batik-gui-util-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gui-util/1.11/c24277c71b90656a84d7b4395a392c4b2af572d2/batik-gui-util-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-xml/1.11/775e16a3777d5fb5f96178087b833311ad788e39/batik-xml-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-xml/1.11/2169b4361c717c698f68399f7cad438fb35dda6c/batik-xml-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.11/f806f6b7025aa829c0be036b9892e3da2e87634c/batik-util-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.11/9748f51ccbf27e4d608eb8e3fe0599238d886ceb/batik-util-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.11/3a51d2fb1bbdeac3a7a111f103e008ea02e3edc/batik-constants-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.11/7c302c2db49975d4a5176bdde843038443f96c2d/batik-constants-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ext/1.11/88d657e3eb549b41cc7bec1484101434f725b20a/batik-ext-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-ext/1.11/220a4d9a63621fafdf4aa68c51b0d13427f5712b/batik-ext-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.11/cb070fb577982352a64ad5b9f9f6a2e37e2dc143/batik-i18n-1.11-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.11/65e3680b22aad1d80308837d9b56b0a9f4125642/batik-i18n-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/b49dafc9cfef24c356827f322e773e7c26725dd2/commons-lang3-3.4-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/bouncycastle/bcmail-jdk14/138/14ff2dfec8578f5f6838c4d6a77a86789afe5382/bcmail-jdk14-138.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/bouncycastle/bcprov-jdk14/138/de366c3243a586eb3c0e2bcde1ed9bb1bfb985ff/bcprov-jdk14-138.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4.2/903e8c2cb521cc91636eccae66b8594435516ff5/ecj-4.4.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4.2/71d67f5bab9465ec844596ef844f40902ae25392/ecj-4.4.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/f66792d499a6fea6c7a743558f940e0ebf775ce3/jackson-databind-2.9.8-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/11283f21cc480aa86c4df7a0a3243ec508372ed2/jackson-databind-2.9.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/ecaea301e166a0b48f11615864246de739b6619b/jackson-core-2.9.8-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.8/78430356aa8c7a1227f97c544e6248630a47a17a/jackson-annotations-2.9.8-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.8/ba7f0e6f8f1b28d251eeff2a5604bed34c53ff35/jackson-annotations-2.9.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/d83744bae211a4072c39f007000a13f501a88395/jakarta.xml.bind-api-2.3.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.64/5c87199786c06e1a53adf16b1998386bad52da89/bcpkix-jdk15on-1.64-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.64/3dac163e20110817d850d17e0444852a6d7d0bd7/bcpkix-jdk15on-1.64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.64/2881bfaf2c15e9e64b62c2a143db90db7a0d6035/bcprov-jdk15on-1.64-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.64/1467dac1b787b5ad2a18201c0c281df69882259e/bcprov-jdk15on-1.64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/fxgraphics2d/1.3/2e605a3381dd79a917ec2b56946552150786e778/fxgraphics2d-1.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.jfree/fxgraphics2d/1.3/31b340e5559cf68eccffaefcdbaadb916208be7d/fxgraphics2d-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.8.2/fc33bf7cd8c5309dd7b81228e8626515ee42efd9/ant-1.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.20.RELEASE/bc9299670d97be04db584a45f6538d202758284/spring-jcl-5.1.20.RELEASE-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.20.RELEASE/e6f4d2e6f1d99c21f47634ab925a403379e2ed93/spring-jcl-5.1.20.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.eclipse.swt/org.eclipse.swt.cocoa.macosx.x86_64/4.3/7cd7d3675397d70521801ec431b0579756130c6c/org.eclipse.swt.cocoa.macosx.x86_64-4.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.eclipse.swt/org.eclipse.swt.cocoa.macosx.x86_64/4.3/d3464862f2abd36e1aef3314276eca4c31098dae/org.eclipse.swt.cocoa.macosx.x86_64-4.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.2/fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a/xalan-2.7.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.2/d55d3f02a56ec4c25695fe67e1334ff8c2ecea23/xalan-2.7.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bctsp-jdk14/1.38/aeb07f434ed0e0a497c794cbf7b863fd2d4a5a17/bctsp-jdk14-1.38-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bctsp-jdk14/1.38/4821122f8390d15f4b5ee652621e2a2bb1f1bf16/bctsp-jdk14-1.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.8.2/6a5466384e7e2086b13d3d281dadaa059b0d0923/ant-launcher-1.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/10e13eb33d8c2c55a2517ca47d109626520e4e59/commons-io-1.3.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/b90b6ac57cf27a2858eaa490d02ba7945d18ca7b/commons-io-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.2/fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a/serializer-2.7.2-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.2/24247f3bb052ee068971393bdb83e04512bb1c3c/serializer-2.7.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcmail-jdk14/1.38/a330bbe03efd892e3515e3f407dfba73f8568612/bcmail-jdk14-1.38-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcmail-jdk14/1.38/14ff2dfec8578f5f6838c4d6a77a86789afe5382/bcmail-jdk14-1.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk14/1.38/f256abfe9445a97cfab36c9c6ef1414b81a60093/bcprov-jdk14-1.38-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk14/1.38/de366c3243a586eb3c0e2bcde1ed9bb1bfb985ff/bcprov-jdk14-1.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.1/523bdce923a13622132b263550d06519fc591ec4/junit-4.13.1-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.1/cdd00374f1fee76b11e2a9d127405aa3f6be5b6a/junit-4.13.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/font-asian/7.1.13/40d139b1a6bab673ad3ca238dc6c89cd370921f8/font-asian-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/bydan_lnmn/.gradle/caches/modules-2/files-2.1/com.itextpdf/hyph/7.1.13/1c7ed29568b3384919bd44ce94962f858df05d48/hyph-7.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
